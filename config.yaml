@@ -1,0 +1,8 @@
+# Configuration file for the face mask detection model
+
+DATASET_PATH : './data'
+CATEGORIES : ['with_mask', 'without_mask']
+IMAGE_SIZE : (128, 128)
+TEST_SIZE : 0.2
+EPOCHS : 20
+LEARNING_RATE : 0.0001
